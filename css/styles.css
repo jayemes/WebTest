@@ -1,0 +1,37 @@
+#my-header {
+    margin-top: 20px;
+    background-color: transparent;
+}
+
+.jumbotron {
+	background-color: rgba(255,255,255,.3);
+}
+
+.img-div {
+    min-height: 200px;
+    min-width: 200px;
+    background-image: url("http://placehold.it/400x200?text=TEST");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: 10px auto;
+    background-position: center;
+}
+
+.spacer {
+	min-height: 200px;
+}
+
+.anchor{
+  display: block;
+  height: 50px; /*same height as header*/
+  margin-top: -50px; /*same height as header*/
+  visibility: hidden;
+}
+
+body {
+	background: linear-gradient(rgb(50,150,120),rgb(209, 125, 42));
+}
+
+.padded {
+	padding: 1px 8% 1px 0px;
+}
