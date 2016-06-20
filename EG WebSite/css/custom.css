@@ -1,99 +1,102 @@
-body{
-	background-color: rgb(40, 80, 110);
-	margin-top: 100px;
-	font-family:  'Bodoni MT', Didot, 'Didot LT STD', 'Hoefler Text', Garamond,  'Times New Roman',  serif;
+body {
+    background-color: rgb(40, 80, 110);
+    margin-top: 100px;
+    font-family: 'Bodoni MT', Didot, 'Didot LT STD', 'Hoefler Text', Garamond, 'Times New Roman', serif;
 }
 
 #top-navbar {
-	height: 100px;
+    height: 100px;
 }
 
 #top-navbar > .container {
-	margin-top: 25px;
+    margin-top: 25px;
 }
 
 #main-container {
-	padding: 0px;
+    padding: 0px;
 }
 
 #main-container > .jumbotron {
-	border-radius: 0;
-	padding-bottom: 100px
+    border-radius: 0;
+    padding-bottom: 100px
 }
 
 #logo {
-	height: 50px;
-	float: left;
-	margin: 5px 20px;
+    height: 50px;
+    float: left;
+    margin: 5px 20px;
 }
 
+
 /* navbar background color when in mobile view */
-.in,.collapsing {
-	background-color: rgba(230,230,230,.95);
+
+.in,
+.collapsing {
+    background-color: rgba(230, 230, 230, .95);
 }
 
 #logo img {
-	height: 100%;
-	vertical-align: middle;
+    height: 100%;
+    vertical-align: middle;
 }
 
 .navbar-nav {
-	float: right;
+    float: right;
 }
 
-.in .navbar-nav, .collapsing .navbar-nav {
-	float: none;
+.in .navbar-nav,
+.collapsing .navbar-nav {
+    float: none;
 }
-
 
 #icon-row {
-	height: 240px;
+    height: 230px;
 }
 
 .icon {
-	background-color: rgb(40, 80, 110);
-	color: rgb(255,255,255);
-	display: inline-block;
-	margin: 25px auto;
-	padding: 25px;
-	border-radius: 100%;
-	transition: background 500ms, transform 500ms;
+    background-color: rgb(40, 80, 110);
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    margin: 25px auto;
+    padding: 25px;
+    border-radius: 100%;
+    transition: background 500ms, transform 500ms;
 }
 
 .icon:hover {
-	background-color: rgb(70, 110, 140);
-	transform: scale(1.1,1.1);
-
+    background-color: rgb(70, 110, 140);
+    transform: scale(1.1, 1.1);
 }
 
 .icon ~ p {
-	transition: transform 500ms, font-size 500ms;
+    transition: transform 500ms, font-size 500ms;
 }
 
 .icon:hover ~ p {
-	transform: translateY(-10px);
-	font-size: 25px;
-
+    transform: translateY(-10px);
+    font-size: 25px;
 }
 
-.parallax-1 {
-	height: 20vw;
-	background-image: url("../assets/bg2.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-attachment: fixed;
-
-	margin: 0 -20px;
+.parallax {
+    height: calc(20vh + 20vw);
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0 -20px;
 }
 
-.section-title {
-
+.plx-1 {
+    background-image: url("../assets/bg2.jpg");
 }
 
-.section-title p,h2 {
-	background: rgba(200,200,200,.7);
-	padding: 25px 0;
-	color: rgb(0,0,0);
+.plx-2 {
+	background-image: url("../assets/bg5.png");
 }
 
+.section-title {}
 
+.section-title p,
+h2 {
+    background: rgba(200, 200, 200, .7);
+    padding: 25px 0;
+    color: rgb(0, 0, 0);
+}
