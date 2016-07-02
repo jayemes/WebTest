@@ -18,7 +18,7 @@ body {
 
 #main-container > .jumbotron {
     border-radius: 0;
-    padding-bottom: 100px
+    padding-bottom: 100px;
 }
 
 #logo {
@@ -50,17 +50,23 @@ body {
 }
 
 #icon-row {
-    height: 230px;
+    height: 250px;
 }
 
 .icon {
     background-color: rgb(40, 80, 110);
     color: rgb(255, 255, 255);
+    width: 140px;
+    height: 140px;
     display: inline-block;
     margin: 25px auto;
-    padding: 25px;
+    padding: 0px;
     border-radius: 100%;
     transition: background 500ms, transform 500ms;
+}
+
+.icon i {
+    line-height: 140px
 }
 
 .icon:hover {
@@ -89,10 +95,8 @@ body {
 }
 
 .plx-2 {
-	background-image: url("../assets/bg5.png");
+    background-image: url("../assets/bg5.png");
 }
-
-.section-title {}
 
 .section-title p,
 h2 {
