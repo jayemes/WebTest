@@ -1,7 +1,17 @@
 body {
     background-color: rgb(40, 80, 110);
     margin-top: 100px;
-    font-family: 'Bodoni MT', Didot, 'Didot LT STD', 'Hoefler Text', Garamond, 'Times New Roman', serif;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+p {
+    font-size: 1.4em;
+}
+
+a,
+a:hover {
+    color: black;
+    text-decoration: none;
 }
 
 #top-navbar {
@@ -18,7 +28,8 @@ body {
 
 #main-container > .jumbotron {
     border-radius: 0;
-    padding-bottom: 100px;
+    /*    padding-bottom: 100px;
+    margin-top: 30px;*/
 }
 
 #logo {
@@ -54,6 +65,8 @@ body {
 }
 
 .icon {
+    opacity: .1;
+    /*opacity is animated on load*/
     background-color: rgb(40, 80, 110);
     color: rgb(255, 255, 255);
     width: 140px;
@@ -80,14 +93,14 @@ body {
 
 .icon:hover ~ p {
     transform: translateY(-10px);
-    font-size: 25px;
 }
 
 .parallax {
-    height: calc(20vh + 20vw);
+    min-height: calc(10vh + 10vw);
     background-size: cover;
     background-attachment: fixed;
-    margin: 0 -20px;
+    margin: 0 auto;
+    padding-bottom: 10px;
 }
 
 .plx-1 {
@@ -99,8 +112,40 @@ body {
 }
 
 .section-title p,
-h2 {
-    background: rgba(200, 200, 200, .7);
+.section-title h2 {
+    background: rgba(255, 255, 255, .7);
     padding: 25px 0;
     color: rgb(0, 0, 0);
+    margin-top: 0px;
+}
+
+.section-description {
+    background-color: white;
+    padding: 10px 40px 10px;
+    margin: 20px 100px;
+    border-radius: 5px;
+}
+
+a.anchor {
+    display: block;
+    visibility: hidden;
+    position: relative;
+    top: -100px;
+}
+
+.fixed-up {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    height: 80px;
+    width: 80px;
+    background-color: white;
+    color: rgb(40, 80, 110);
+    border-radius: 100%;
+    box-shadow: rgba(0, 0, 0, .9) 0px 0px 25px;
+    padding: 0;
+}
+
+.fixed-up i {
+    line-height: 80px;
 }
