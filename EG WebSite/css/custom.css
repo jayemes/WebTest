@@ -5,7 +5,7 @@ body {
 }
 
 p {
-    font-size: 1.4em;
+    font-size: 1.3em;
 }
 
 a,
@@ -28,8 +28,10 @@ a:hover {
 
 #main-container > .jumbotron {
     border-radius: 0;
-    /*    padding-bottom: 100px;
-    margin-top: 30px;*/
+}
+
+.jumbotron p {
+    font-size: calc(80% + .5vw);
 }
 
 #logo {
@@ -38,11 +40,9 @@ a:hover {
     margin: 5px 20px;
 }
 
-
-/* navbar background color when in mobile view */
-
 .in,
 .collapsing {
+    /* navbar background color when in mobile view */
     background-color: rgba(230, 230, 230, .95);
 }
 
@@ -76,6 +76,7 @@ a:hover {
     padding: 0px;
     border-radius: 100%;
     transition: background 500ms, transform 500ms;
+    box-shadow: rgba(0, 0, 0, .9) 0px 0px 25px;
 }
 
 .icon i {
@@ -122,7 +123,7 @@ a:hover {
 .section-description {
     background-color: white;
     padding: 10px 40px 10px;
-    margin: 20px 100px;
+    margin: 20px calc(5% + 2vw);
     border-radius: 5px;
 }
 
@@ -144,6 +145,7 @@ a.anchor {
     border-radius: 100%;
     box-shadow: rgba(0, 0, 0, .9) 0px 0px 25px;
     padding: 0;
+    z-index: 1000;
 }
 
 .fixed-up i {
