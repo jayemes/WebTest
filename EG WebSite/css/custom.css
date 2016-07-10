@@ -38,6 +38,7 @@ a:hover {
     height: 50px;
     float: left;
     margin: 5px 20px;
+    padding: 0px;
 }
 
 .in,
