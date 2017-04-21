@@ -1,0 +1,20 @@
+.top-jumbo {
+	background-image: url('../bg1.jpg');
+	background-size: 100%;
+	background-attachment: 0 0;
+	background-position: 0 -150px;
+
+	height: 250px;
+	color: white;
+}
+
+.btn-block {
+	display: block;
+}
+
+.btn:first-child{
+	margin-top: 25px;
+}
+
+
+
