@@ -11,6 +11,10 @@
     margin-top: 25px;
 }
 
+body {
+    background: rgb(100,100,100);
+}
+
 .container {
 	background: rgb(255, 209, 170);
 }
@@ -26,7 +30,7 @@
 }
 
 input {
-    width: 30px;
+    width: 40px;
     margin: 5px;
 }
 
