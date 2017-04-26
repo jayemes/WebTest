@@ -13,7 +13,6 @@ $(document).ready(function() {
 
         ctnC.addClass('visible-xs');
         ctnC.removeClass('visible')
-
     });
 
     $("#btnB").click(function() {
@@ -38,4 +37,11 @@ $(document).ready(function() {
         ctnA.removeClass('visible')
     });
 
+
+
+});
+
+$(document).scroll(function() {
+    console.log("scrolled");
+    $('#ctnC').get(0).scrollIntoView();
 });

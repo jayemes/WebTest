@@ -1,20 +1,62 @@
 .top-jumbo {
-	background-image: url('../bg1.jpg');
-	background-size: 100%;
-	background-attachment: 0 0;
-	background-position: 0 -150px;
-
-	height: 250px;
-	color: white;
+    background-image: url('../bg1.jpg');
+    color: white;
 }
 
 .btn-block {
-	display: block;
+    display: block;
 }
 
-.btn:first-child{
-	margin-top: 25px;
+.btn:first-child {
+    margin-top: 25px;
+}
+
+.container {
+	background: rgb(255, 209, 170);
+}
+
+.graph-container {
+    min-height: 200px;
+    height: 40vh;
+}
+
+.no-padding {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+input {
+    width: 30px;
+    margin: 5px;
+}
+
+.match-cols {
+	overflow: hidden;
+}
+
+.match-cols [class*="col-"]{
+    margin-bottom: -99989px;
+    padding-bottom: 99999px;
 }
 
 
+h1 {
+    text-align: center;
+}
 
+
+.bg1 {
+    background: rgb(170, 57, 57);
+}
+
+.bg1 h1 {
+    color: rgb(255, 170, 170);
+}
+
+.bg2 {
+    background: rgb(136, 45, 96);
+}
+
+.bg2 h1 {
+    color: rgb(205, 136, 175);
+}
