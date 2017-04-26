@@ -12,11 +12,11 @@
 }
 
 body {
-    background: rgb(100,100,100);
+    background: rgb(100, 100, 100);
 }
 
 .container {
-	background: rgb(255, 209, 170);
+    background: rgb(255, 209, 170);
 }
 
 .graph-container {
@@ -25,29 +25,27 @@ body {
 }
 
 .no-padding {
-	padding-left: 0;
-	padding-right: 0;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 input {
-    width: 40px;
-    margin: 5px;
+    width: 30%;
+    margin: 5px 5%;
 }
 
 .match-cols {
-	overflow: hidden;
+    overflow: hidden;
 }
 
-.match-cols [class*="col-"]{
+.match-cols [class*="col-"] {
     margin-bottom: -99989px;
     padding-bottom: 99999px;
 }
 
-
 h1 {
     text-align: center;
 }
-
 
 .bg1 {
     background: rgb(170, 57, 57);
