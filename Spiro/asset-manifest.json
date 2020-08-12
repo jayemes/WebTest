@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Spiro/static/css/main.a6ab082c.chunk.css",
+    "main.js": "/Spiro/static/js/main.83ac6ed4.chunk.js",
+    "main.js.map": "/Spiro/static/js/main.83ac6ed4.chunk.js.map",
+    "runtime-main.js": "/Spiro/static/js/runtime-main.1991f01b.js",
+    "runtime-main.js.map": "/Spiro/static/js/runtime-main.1991f01b.js.map",
+    "static/js/2.9bfad867.chunk.js": "/Spiro/static/js/2.9bfad867.chunk.js",
+    "static/js/2.9bfad867.chunk.js.map": "/Spiro/static/js/2.9bfad867.chunk.js.map",
+    "index.html": "/Spiro/index.html",
+    "precache-manifest.2c3bfef9523c8a4bc8fd733c65f2ebb4.js": "/Spiro/precache-manifest.2c3bfef9523c8a4bc8fd733c65f2ebb4.js",
+    "service-worker.js": "/Spiro/service-worker.js",
+    "static/css/main.a6ab082c.chunk.css.map": "/Spiro/static/css/main.a6ab082c.chunk.css.map",
+    "static/js/2.9bfad867.chunk.js.LICENSE.txt": "/Spiro/static/js/2.9bfad867.chunk.js.LICENSE.txt",
+    "static/media/help-24px.svg": "/Spiro/static/media/help-24px.bca12a0f.svg",
+    "static/media/App.css": "/Spiro/static/media/moroccan-flower.6183e7e4.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1991f01b.js",
+    "static/js/2.9bfad867.chunk.js",
+    "static/css/main.a6ab082c.chunk.css",
+    "static/js/main.83ac6ed4.chunk.js"
+  ]
+}
