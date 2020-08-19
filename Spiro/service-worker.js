@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Spiro/precache-manifest.2c3bfef9523c8a4bc8fd733c65f2ebb4.js"
+  "/Spiro/precache-manifest.6497a440eec1e27e9c5c4dcfefed99af.js"
 );
 
 self.addEventListener('message', (event) => {
